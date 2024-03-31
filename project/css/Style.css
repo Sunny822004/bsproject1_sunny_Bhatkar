@@ -1,0 +1,170 @@
+.bgcolor{
+    background-color: rgb(42, 6, 250);
+    transform:scale(1.01);    
+}
+
+.nav-link{
+    color: rgb(239, 248, 255);
+}
+.nav-link:hover{
+    color: aquamarine;
+    transform: scale(1.1);
+}
+#logo{
+    width: 80px;
+    height: 50px; 
+}
+#logo:hover{
+    transform:scale(1.1);
+}
+#image:hover{
+    transform:scale(1.01);
+}
+
+/* abou us */
+#about{
+    font-style:Cambria ;
+    font-size :20px;
+    text-align: justify;
+    
+
+}
+#anc:hover{
+    transform:scale(1.01);
+}
+#about h1{
+    color: darkblue;
+    text-align: center;
+    margin-top:100px ;
+}
+#about h4{
+    color:darkgreen
+}
+#trophy:hover{
+    transform:scale(1.01);
+}
+#trophy{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 84% 92%, 0 100%);
+}
+#about ul{
+    list-style: none;
+}
+
+/* teams info */
+#teams1{
+    margin-top:30px ;
+    margin-left:30px;
+    
+}
+#teams1:hover{
+    transform:scale(1.1);
+}
+#teams1, #teams2,#teams3{
+    transition: transform 0.5s;
+}
+
+#teams2{
+    margin-top:30px ;
+    margin-left:30px;
+
+}
+#teams2:hover{
+    transform:scale(1.1);
+}
+#teams3{
+        margin-top:30px ;
+        margin-left:30px;
+    }
+#teams3:hover{
+        transform:scale(1.1);
+}
+#info h1{
+    color: rgb(235, 16, 16);
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top:100px ;
+}
+#logos{
+    text-align: center;
+    color: aliceblue;
+}
+ /* end */
+
+ /* gallary start*/
+ #gallary{
+    color: rgb(134, 7, 113);
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top:120px ;
+    text-decoration:underline;
+ }
+
+ #contact input {
+	margin-top: 20px;
+}
+
+textarea {
+	margin-top: 20px;
+}
+#contact .col-md-6 {
+	margin-left:0;
+	padding-left:  0;
+}
+#btn{
+    text-align:right;
+    margin-top:10px;
+}
+
+#personal{
+    color: aquamarine;
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+
+marquee{
+    font-size:25px;
+}
+
+#footer{
+    background-color: rgb(9, 149, 255);
+    /* margin-top: 10px; */
+}
+
+#footer ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+
+#socialicons li {
+    margin-left: 10px;
+
+}
+
+#footer #socialicons li {
+   
+	display: inline;
+    font-size:50px;
+}
+#icon{
+    text-align: center;
+}
+#footer h4{
+    color: brown;
+}
+ #ab{
+    color: rgb(241, 32, 91);
+} 
+#cd , #ef {
+    color: blue;
+}
+#gh{
+    color:blue
+}
+ #socialicons a{
+    list-style: none;
+
+} 
